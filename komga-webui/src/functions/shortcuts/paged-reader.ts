@@ -27,10 +27,18 @@ export const shortcutsVertical = [
     (ctx: any) => {
       ctx.verticalPrev()
     }, 'ArrowUp', '↑'),
+  new Shortcut('bookreader.shortcuts.previous_page',
+    (ctx: any) => {
+      ctx.verticalPrev()
+    }, 'x', 'X'),
   new Shortcut('bookreader.shortcuts.next_page',
     (ctx: any) => {
       ctx.verticalNext()
     }, 'ArrowDown', '↓'),
+  new Shortcut('bookreader.shortcuts.next_page',
+    (ctx: any) => {
+      ctx.verticalNext()
+    }, 'z', 'Z'),
 ]
 
 export const shortcutsSettingsPaged = [

@@ -73,3 +73,8 @@ CHARACTERS_IMPLEMENTATION_SUMMARY.md
 ### Conveyor
 output/
 secret/
+docker-compose.ghcr.yml
+GHCR-QUICKSTART.md
+GHCR-USAGE.md
+pull-and-run.ps1
+push-to-ghcr.ps1
